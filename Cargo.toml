@@ -40,9 +40,9 @@ reqwest = "0.11"
 tokio = { version = "1", features = ["full"] }
 tokio-retry = "0.3"
 
-[dependencies.tonlib-sys]
-git = "https://github.com/ston-fi/tonlib-sys.git"
-rev = "6d4f79ffc3f99835d0109ecfc4ac891290616956"
+#[dependencies.tonlib-sys]
+#git = "https://github.com/ston-fi/tonlib-sys.git"
+#rev = "6d4f79ffc3f99835d0109ecfc4ac891290616956"
 
 [dev-dependencies]
 tokio-test = "0.4"

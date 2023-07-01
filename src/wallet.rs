@@ -4,13 +4,9 @@ use nacl::sign::signature;
 use num_bigint::BigUint;
 use num_traits::Zero;
 
-pub use contract::TonWalletContract;
-
 use crate::address::TonAddress;
 use crate::cell::{BagOfCells, Cell, CellBuilder};
 use crate::crypto::KeyPair;
-
-mod contract;
 
 lazy_static! {
     pub static ref WALLET_V3_CODE: BagOfCells = {
